@@ -1,0 +1,81 @@
+/* comment here */
+
+body {
+    background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg); /* komple body arka plana resim ekleme */
+    font-family:sans-serif;  
+    padding:20px;
+}
+.menu {
+    width:80%; /* genişlik komplesine oranı yoluyla bulunur */
+    background-color: burlywood;
+    margin-right: auto;
+    margin-left: auto;
+    padding:20px;
+    max-width:500px;   
+      
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:-25px;
+}
+hr {
+    height: 2px;
+    background-color: brown;
+    border-color: brown;
+}
+  
+h1, h2, p {
+    text-align: center;/* yazıyı ortaladık */
+}
+h1, h2 {
+    font-family: Impact, serif;
+}
+h1 {
+    font-size: 40px;
+    margin-top:0;
+    margin-bottom:15px;
+}
+h2 {
+    font-size: 30px;
+}
+.flavor, .dessert {
+    text-align: left;/* yazıyı sola yasladık */
+    width:75%; /* article içerisinde yarı yarıya kutuya ayrıldı. */
+}
+.price {
+    text-align:right;
+    width:25%;
+}
+.item p {
+    display: inline-block; /* aynı kutu içerisinde yan yana getiriyor */
+    margin-top:5px;
+    margin-bottom:5px;
+    font-size:18px;
+}
+.established  {
+    font-style: italic;
+}
+.bottom-line {
+    margin-top:25px;
+}
+/* FOOTER */
+footer {
+    font-size:14px;
+}
+a {
+    color:black;
+}
+a:visited {
+    color:black; /* linkin rengi */
+}
+a:hover {
+    color:brown;  /* linkin üstüne gelince rengi değiştirir */
+}
+a:active {
+    color:brown;  /* tıkladıktan sonra kalan renk */
+}
+.address {
+    margin-bottom:5px;
+}
